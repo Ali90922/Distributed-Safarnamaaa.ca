@@ -1,0 +1,417 @@
+*
+
+        {
+            margin: 0;
+            padding: 0;
+        }
+
+        
+        header
+        {
+            background-color: #ffffff;
+        }
+        body
+        {
+            background-color: #F8F9F9;
+        }
+
+        /* App.css */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+}
+
+.App-header {
+  width: 100%; /* Ensure the header spans the entire width */
+  padding: 20px; /* Add padding to the header */
+}
+
+
+h1 {
+  font-family: "Gravity";
+  font-size: 4.2em; /* Adjust the font size using ems */
+  color: #212F3C;
+  margin-left: 15px; /* Add left margin of 15 pixels */
+  transition: text-shadow 0.3s ease; /* Apply transition effect to text-shadow */
+}
+
+
+h1:hover {
+  text-shadow: 1px 1px 4px rgba(33, 47, 60, 0.5); /* Add a subtle shadow on hover */
+}
+
+        h2 {
+            font-family: " Arial";
+            font-size: 12px;
+            padding-top: 0px; /* Corrected padding */
+            color: #212F3C;
+            margin-left: 15px; /* Add left margin of 10 pixels */
+        }
+        h5 {
+          font-family: " Arial";
+          font-size: 3em;
+          margin-top: 90px; /* Corrected padding */
+          color: #212F3C;
+          margin-left: 15px; /* Add left margin of 10 pixels */
+      }
+        body {
+          background-color: #f8f9f9; /* Set the background color */
+          margin: 0; /* Remove default margin */
+          padding: 0; /* Remove default padding */
+      }
+
+
+
+        ul {
+            font-family: "Gravity";
+            font-size: 20px;
+            padding-top: 20px;
+        }
+        .main-nav {
+            float: right;
+            list-style: none;
+            margin-top: 30px;
+            margin-right: 50px;
+          
+        }
+        .main-nav li {
+            display: inline-block;
+        }
+        .main-nav li a {
+            color: #283747;
+            text-decoration: none;
+            padding: 5px 20px;
+            letter-spacing: 0.01px;
+            font-family: "Gravity";
+            font-size: 13px;
+        }
+        /* Dropdown menu */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        /* CSS for the image */
+        .enlarged-image {
+            margin-top: 10px; /* Adjust as needed */
+            width: 100%; /* Stretch image to the sides */
+            max-width: 100%; /* Ensure image doesn't exceed viewport width */
+            height: auto; /* Maintain aspect ratio */
+            object-fit: cover; /* Cover container with image */
+            position: relative;
+            height: 50%; /* Adjust as needed (cutting off the lower 20%) */
+            margin-bottom: -20%; 
+
+
+
+
+       
+
+            
+
+        }
+        .ProfilePic {
+          margin-top: 10px; /* Adjust as needed */
+          width: 20%; /* Stretch image to the sides */
+          height: 20%;
+
+      
+      }
+      .ProfilePic:hover {
+        margin-top: 10px; /* Adjust as needed */
+        width: 20%; /* Stretch image to the sides */
+        height: 120%;
+        opacity: 44%;
+
+    
+    }
+
+    .alitom-container {
+      display: inline-block; /* Ensure the container behaves like an inline element */
+    }
+    
+    .social-link {
+      display: inline; /* Display the social links inline */
+      margin-right: 10px; /* Add some space between the links */
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .enlarged-image2 {
+          margin-top: 20px; /* Adjust as needed */
+          width: 100%; /* Stretch image to the sides */
+          max-width: 100%; /* Ensure image doesn't exceed viewport width */
+          height: auto; /* Maintain aspect ratio */
+          object-fit: cover; /* Cover container with image */
+          position: relative;
+      }
+
+        .smaller-image {
+          margin-top: 50px; /* Adjust as needed */
+          margin-bottom: 50px;
+          margin-left: 10px;
+          margin-right: 20px;
+          width: 28%; /* Make the image 40% of its original size */
+          max-width: 100%; /* Ensure image doesn't exceed viewport width */
+          height: auto; /* Maintain aspect ratio */
+          object-fit: cover; /* Cover container with image */
+          position: relative;
+          transition: transform 0.3s ease, border-radius 0.3s ease; /* Apply a smooth transition effect */
+          border-radius: 25px; /* Rounded corners */
+        }
+
+        
+        
+        .smaller-image:hover {
+          transform: scale(0.95) rotate(20deg); /* Apply scale and rotate transform on hover */
+          border-radius: 2px; /* Increase border-radius on hover for a more rounded effect */
+
+        }
+        
+        
+        .Ali-info{
+          font-family: "Gravity";
+            font-size: 1em; /* Adjust font size as needed */
+            font-weight: bold;
+            color: rgb(0, 0, 0);
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 20px;
+            line-height: 1.5; 
+
+        }
+        .Ali-info22{
+          font-family: "Gravity";
+            font-size: 1em; /* Adjust font size as needed */
+            font-weight: bold;
+            color: rgb(0, 0, 0);
+            margin-left: 20px;
+            margin-right: 10px;
+            margin-top: 20px;
+            line-height: 1.1; 
+            text-align: left;
+        }
+        p {
+          margin-bottom: 10px; /* Adjust this value to increase or decrease the space between paragraphs */
+      }
+
+        
+        .image-container {
+            overflow: hidden;
+            position: relative;
+        }
+        .image-mask {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 60%;
+            background: linear-gradient(transparent, white); /* Overlay gradient to fade out upper 40% */
+            z-index: 1;
+        }
+        /* Text within the image */
+        .image-text {
+            position: absolute;
+            bottom: 25%; /* Adjust to position the text lower */
+            left: 50%;
+            transform: translateX(-50%);
+            font-family: "Gravity";
+            font-size: 16em; /* Adjust font size as needed */
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            z-index: 2;
+            margin-bottom: 20px; /* Adjust margin-bottom to move the text up */
+            white-space: nowrap; /* Prevent text from wrapping */
+        }
+
+        .image-text55{
+          position: absolute;
+          bottom: 25%; /* Adjust to position the text lower */
+          left: 50%;
+          transform: translateX(-50%);
+          font-family: "Gravity";
+          font-size: 13em; /* Adjust font size as needed */
+          font-weight: bold;
+          color: rgb(255, 255, 255);
+          z-index: 2;
+          margin-bottom: 20px; /* Adjust margin-bottom to move the text up */
+          white-space: nowrap; /* Prevent text from wrapping */
+      }
+
+        .image-text2 {
+          position: absolute;
+          bottom: 20%; /* Adjust to position the text lower */
+          left: 50%;
+          transform: translateX(-50%);
+          font-family: "Gravity";
+          font-size: 11em; /* Adjust font size as needed */
+          font-weight: bold;
+          color: rgb(253, 253, 253);
+          z-index: 2;
+          margin-bottom: 20px; /* Adjust margin-bottom to move the text up */
+          white-space: nowrap; /* Prevent text from wrapping */
+          opacity: 1; /* Initially hidden */
+          transition: opacity 0.3s ease; /* Apply transition effect */
+          max-width: 100rem;
+        }
+        
+        .image-text2:hover {
+        }
+        
+        
+
+        /* Date text */
+        .date-text {
+          position: absolute;
+          bottom: 25%; /* Adjust to position the text lower */
+          left: 50%;
+          transform: translateX(-50%);
+          font-family: "Gravity";
+          font-size: 2em; /* Adjust font size as needed */
+          color: rgb(255, 255, 255);
+          z-index: 2;
+          margin-top: -10px; /* Margin added to move the text up */
+          font-weight: bold; /* Make the text bold */
+        }
+
+        .date-text2{
+          position: absolute;
+          bottom: 45%; /* Adjust to position the text lower */
+          left: 50%;
+          transform: translateX(-50%);
+          font-family: "Gravity";
+          font-size: 2.0em; /* Adjust font size as needed */
+          color: rgb(255, 255, 255);
+          z-index: 2;
+          margin-top: -10px; /* Margin added to move the text up */
+          font-weight: bold; /* Make the text bold */
+      }
+      .date-text22{
+        position: absolute;
+        bottom: 22%; /* Adjust to position the text lower */
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: "Gravity";
+        font-size: 2.0em; /* Adjust font size as needed */
+        color: rgb(255, 255, 255);
+        z-index: 2;
+        margin-top: -10px; /* Margin added to move the text up */
+        font-weight: bold; /* Make the text bold */
+    }
+
+      .date-text3{
+        position: absolute;
+        bottom: 20%; /* Adjust to position the text lower */
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: "Gravity";
+        font-size: 2.5em; /* Adjust font size as needed */
+        color: rgb(255, 255, 255);
+        z-index: 2;
+        margin-top: -10px; /* Margin added to move the text up */
+        font-weight: bold; /* Make the text bold */
+    }
+
+    .date-text4{
+      position: absolute;
+      bottom: 19%; /* Adjust to position the text lower */
+      left: 50%;
+      transform: translateX(-50%);
+      font-family: "Gravity";
+      font-size: 2.5em; /* Adjust font size as needed */
+      color: rgb(254, 254, 254);
+      z-index: 2;
+      margin-top: -10px; /* Margin added to move the text up */
+      font-weight: bold; /* Make the text bold */
+  }
+
+  .date-text5{
+    position: absolute;
+    bottom: 15%; /* Adjust to position the text lower */
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Gravity";
+    font-size: 35px; /* Adjust font size as needed */
+    color: rgb(254, 254, 254);
+    z-index: 2;
+    margin-top: -10px; /* Margin added to move the text up */
+    font-weight: bold; /* Make the text bold */
+}
+        /* Whitespace after the image */
+        .whitespace {
+            height: 200px; /* Adjust as needed */
+            background-color: white; /* White background */
+        }
+        /* Grey space with contact info */
+        .grey-space {
+            background-color: #000000; /* Grey background */
+            padding: 50px 0; /* Adjust padding as needed */
+            text-align: center;
+        }
+        /* Contact info color */
+        .grey-space p {
+            color: white;
+        }
+
+
+
+        .footer-line {
+          border: 0; /* Remove default border */
+          height: 1px; /* Set height of the line */
+          background-color: #ccc; /* Set color of the line */
+          margin: 25px 0; /* Add some spacing above and below the line */
+        }
+
+    
+        
+
+
+        @media only screen and(max-width : 720px ) {
+          .image-text2{
+            visibility: collapse;
+          }
+          
+        }
+
+
+        .social-link {
+          color: #555; /* Change link color */
+          text-decoration: none; /* Remove underline */
+          margin-right: 10px; /* Add some spacing between links */
+        }
+        
+        .social-link:hover {
+          text-decoration: underline; /* Add underline on hover */
+        }
+        

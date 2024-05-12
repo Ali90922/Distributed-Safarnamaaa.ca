@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="Safarnama"
+      content="from Whistler to Karimabad"
+    />
+    <title>سفرنامہ</title>
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!-- Message for unsupported mobile devices -->
+    <div id="unsupportedMessage" style="display: none; text-align: center; padding: 20px; background-color: #870d04; color: white;">
+      This website is only accessible on laptops. Mobile devices are not supported.
+    </div>
+    <!-- JavaScript to detect and show the message -->
+    <script>
+      window.onload = function() {
+        var userAgent = navigator.userAgent.toLowerCase();
+        var isMobile = /iphone|ipad|ipod|android|blackberry|windows phone/.test(userAgent);
+
+        if (isMobile) {
+          document.getElementById('unsupportedMessage').style.display = 'block';
+          document.getElementById('root').style.display = 'none';
+        }
+      };
+    </script>
+  </body>
+</html>
