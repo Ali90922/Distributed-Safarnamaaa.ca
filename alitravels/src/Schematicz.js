@@ -2,9 +2,8 @@ import React from 'react';
 import Navbar from './NavBar';
 import Footer from './Footer'
 
-
 function Fort() {
-  const imageUrl = "./Hunza.jpg";
+  const imageUrl = "./VictoriaBoat.JPG";
   return (
     <div className="image-container">
       <img className="enlarged-image" src={imageUrl} alt="Mountain Image" />

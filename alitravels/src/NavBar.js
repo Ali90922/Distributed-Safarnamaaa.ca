@@ -12,28 +12,33 @@ const Navbar = () => {
       <div className="row">
         <ul className="main-nav">
 
-        <Link to="/">
-        <li><a href="">Home.</a></li>
-        </Link>
+          <Link to="/">
+            <li><a href="">Home.</a></li>
+          </Link>
 
-        <Link to="/scheme">
-        <li><a href="">Schematicz.</a></li>
-        </Link>
-        
-          
+          <Link to="/Victoria">
+            <li><a href="">Victoria.</a></li>
+          </Link>
+
+          <Link to="/scheme">
+            <li><a href="">Schematicz.</a></li>
+          </Link>
+
+
           <li className="dropdown">
             <a href="#">Pakistan.</a>
             <div className="dropdown-content">
               <a href="#">Gilgit</a>
               <a href="#">Naran</a>
-              <a href="#">Muree</a>
               <a href="#">Quetta</a>
             </div>
           </li>
           <li className="dropdown">
             <a href="#">Canada.</a>
             <div className="dropdown-content">
-              <a href="#">British Columbia</a>
+
+            <a href="/Victoria">Victoria</a>
+ 
               <a href="#">Manitoba</a>
               <a href="#">Quebec</a>
             </div>

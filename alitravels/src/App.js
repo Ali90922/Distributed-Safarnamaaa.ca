@@ -140,6 +140,8 @@ function App() {
           {/* Define routes */}
           <Route path="/scheme" element={<Scheme />} />
           <Route path="/" element={<Home />} />
+          <Route path="/Victoria" element={<Home />} />
+
 
 
         </Routes>
