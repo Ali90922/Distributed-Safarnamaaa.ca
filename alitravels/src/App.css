@@ -121,15 +121,26 @@ h1:hover {
             position: relative;
             height: 50%; /* Adjust as needed (cutting off the lower 20%) */
             margin-bottom: -20%; 
-
-
-
-
-       
-
-            
-
         }
+        .enlarged-image-Nangma {
+          margin-top: -5%; /* Adjust as needed */
+          width: 100%; /* Stretch image to the sides */
+          max-width: 100%; /* Ensure image doesn't exceed viewport width */
+          height: auto; /* Maintain aspect ratio */
+          object-fit: cover; /* Cover container with image */
+          position: relative;
+          height: 50%; /* Adjust as needed (cutting off the lower 20%) */
+          margin-bottom: -10%; 
+      }
+
+
+
+
+
+
+
+
+
         .ProfilePic {
           margin-top: 10px; /* Adjust as needed */
           width: 20%; /* Stretch image to the sides */
@@ -202,14 +213,13 @@ h1:hover {
         
         .Ali-info{
           font-family: "Gravity";
-            font-size: 1em; /* Adjust font size as needed */
+            font-size: 1.3em; /* Adjust font size as needed */
             font-weight: bold;
             color: rgb(0, 0, 0);
             margin-left: 20px;
             margin-right: 20px;
             margin-top: 20px;
             line-height: 1.5; 
-
         }
         .Ali-info22{
           font-family: "Gravity";
@@ -285,9 +295,26 @@ h1:hover {
           transition: opacity 0.3s ease; /* Apply transition effect */
           max-width: 100rem;
         }
-        
-        .image-text2:hover {
+
+
+        .image-textnangma {
+          position: absolute;
+          bottom: 20%; /* Adjust to position the text lower */
+          left: 50%;
+          transform: translateX(-50%);
+          font-family: "Gravity";
+          font-size: 11em; /* Adjust font size as needed */
+          font-weight: bold;
+          color: rgb(253, 253, 253);
+          z-index: 2;
+          margin-bottom: 20px; /* Adjust margin-bottom to move the text up */
+          white-space: nowrap; /* Prevent text from wrapping */
+          opacity: 1; /* Initially hidden */
+          transition: opacity 0.3s ease; /* Apply transition effect */
+          max-width: 100rem;
         }
+        
+  
         
         
 
@@ -414,4 +441,11 @@ h1:hover {
         .social-link:hover {
           text-decoration: underline; /* Add underline on hover */
         }
+
+
+        /* App.css */
+.nangma-link a {
+  color: lightcoral; /* light red color */
+}
+
         

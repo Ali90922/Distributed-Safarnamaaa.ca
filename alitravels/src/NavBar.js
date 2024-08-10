@@ -16,12 +16,8 @@ const Navbar = () => {
             <li><a href="">Home.</a></li>
           </Link>
 
-          <Link to="/Victoria">
-            <li><a href="">Victoria.</a></li>
-          </Link>
-
           <Link to="/scheme">
-            <li><a href="">Schematicz.</a></li>
+            <li className="nangma-link"><a href="">Nangma.</a></li>
           </Link>
 
 
