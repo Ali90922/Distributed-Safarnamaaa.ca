@@ -1,0 +1,30 @@
+# Redirect traffic for safarnamaaa.ca to port 8080 (React app)
+server {
+    listen 80;
+    server_name safarnamaaa.ca www.safarnamaaa.ca;
+
+    location / {
+        proxy_pass http://localhost:8080;   # Forward traffic to port 8080
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+
+# Default server block to handle traffic to your VM's public IP (port 80)
+server {
+    listen 80 default_server;
+    listen [::]:80 default_server;
+
+    server_name _;
+
+    location / {
+        proxy_pass http://localhost:80;    # Forward traffic to port 80
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+
