@@ -21,24 +21,7 @@ const Navbar = () => {
           </Link>
 
 
-          <li className="dropdown">
-            <a href="#">Pakistan.</a>
-            <div className="dropdown-content">
-              <a href="#">Gilgit</a>
-              <a href="#">Naran</a>
-              <a href="#">Quetta</a>
-            </div>
-          </li>
-          <li className="dropdown">
-            <a href="#">Canada.</a>
-            <div className="dropdown-content">
 
-            <a href="/Victoria">Victoria</a>
- 
-              <a href="#">Manitoba</a>
-              <a href="#">Quebec</a>
-            </div>
-          </li>
         </ul>
         <h1>Ali's سفرنامہ </h1>
       </div>
