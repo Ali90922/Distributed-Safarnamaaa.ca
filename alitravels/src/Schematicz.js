@@ -3,9 +3,6 @@ import Navbar from './NavBar';
 import Footer from './Footer'
 import GoogleMap from './GoogleMap'; // Import the GoogleMap component
 import PhotoGallery from './PhotoGallery';
-import Gal from './Gal'
-import Gall from './Gal2'
-import Galll from './Gal3'
 
 
 
