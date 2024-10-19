@@ -21,7 +21,6 @@ const Navbar = () => {
           </Link>
 
 
-
         </ul>
         <h1>Ali's سفرنامہ </h1>
       </div>
