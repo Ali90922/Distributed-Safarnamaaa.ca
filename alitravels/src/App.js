@@ -71,10 +71,7 @@ function Web() {
   <div className='Ali-info'>Employed a combination of AWS services and their personal iMac to craft a bespoke, in-house hosting solution for their website.</div>
 
 
-</div>
-
-
-      
+</div> 
     </div>
   );
 }
@@ -103,19 +100,14 @@ function Climbed() {
 <p>Indeed, the journey to these towering summits demands more than just physical prowess—it requires a profound reservoir of mental strength and unwavering determination. Scaling these peaks necessitates a delicate balance of skill, strategy, and sheer willpower, as every step forward is a testament to the resilience of the human spirit.</p>
 
 <p>Through both triumph and defeat, I've learned invaluable lessons about the indomitable nature of the human spirit. Each ascent, whether successful or not, has shaped me into the climber—and the person—I am today. And as I continue to explore the boundless heights of the world's most majestic peaks, I carry with me the lessons learned and the spirit forged in the valleys of Balakot.</p>
-</div>
 
+</div>
   <img className="smaller-image" src={imageUrl3} alt="Mountain Image" />
-
-
 </div>
-
-
-      
+     
     </div>
   );
 }
-
 
 
 (function(d, t) {
