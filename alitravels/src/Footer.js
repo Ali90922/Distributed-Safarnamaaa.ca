@@ -19,7 +19,7 @@ function Footer() {
           <div className="footer-section">
           </div>
           <div className="footer-section">
-            <div style={{ height: '20px' }}></div>
+            <div style={{ height: '150px' }}></div>
             <div className="alitom-container">
               <AliTom />
               <a href="https://www.linkedin.com/in/ali-nawaz-385a0b172/" className="social-link">LinkedIn</a>
