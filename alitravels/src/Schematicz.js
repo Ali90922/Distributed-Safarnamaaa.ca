@@ -92,11 +92,6 @@ function Schematicz() {
         <Nangmainfo/>
         <GoogleMap />
         <GreenNangma/>
-        <PhotoGallery/>
-        <Camp/>
-        <Gal/>
-        <Gall/>
-        <Galll/>
 
         <Footer />
 
